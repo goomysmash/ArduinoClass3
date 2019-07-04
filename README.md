@@ -43,7 +43,11 @@
   - `Serial.print("counter: ");`
   - `Serial.println(counter);`
 - Comment out unecessary Serial print statements
+- (Upload and watch serial monitor and LEDs and press button)
+- Notice how the button is much more responsive
 
-### 7.
-- ``
-- ``
+### 7. Change the time it takes to turn on the LEDs in the timer if statement
+- Change this line from 10 to 5 or whatever number you desire
+  - `if (counter > 10)`
+- (Upload and watch serial monitor and LEDs and press button)
+
