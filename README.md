@@ -37,9 +37,13 @@
 - Notice how every 500 ms the if statement activates and the previous time updates
 - Now we can add stuff in the if statement and have the same effect as delay()
 
-### 6. 
-- ``
-- ``
-- ``
+### 6. Move the increment line into the timer if statement
+- Move these lines into the timer if statement:
+  - `counter = counter + 1;`
+  - `Serial.print("counter: ");`
+  - `Serial.println(counter);`
+- Comment out unecessary Serial print statements
+
+### 7.
 - ``
 - ``
