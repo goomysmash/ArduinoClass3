@@ -51,3 +51,8 @@
   - `if (counter > 10)`
 - (Upload and watch serial monitor and LEDs and press button)
 
+### Lessons learned:
+- The delay() function SUCKS!
+  - Your program is completely stuck while delay() is running
+- If you can at all avoid it, use millis() instead
+  - Your program will check the time every loop, but is free to do other things if not enough time has elapsed
