@@ -18,8 +18,8 @@
 
 ### 4. Update prevTime to be what currentTime used to be and Serial print the result
 - New code lines:
-  -`prevTime = currentTime;`
-  -`Serial.print("prevTime: ");`
+  - `prevTime = currentTime;`
+  - `Serial.print("prevTime: ");`
   - `Serial.println(prevTime);`
 - (Upload and watch serial monitor)
 - Notice how the prevTime is just the last currentTime
